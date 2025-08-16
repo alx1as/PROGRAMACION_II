@@ -13,7 +13,7 @@ divisible por 400.
 
  * @author alexia
  */
-public class Bisiesto {
+public class Ejercicio01_esBisiesto {
     public static void main (String[] args) {
         Scanner nro = new Scanner(System.in);
         System.out.println("Por favor, ingrese un año: "); /*Pedimos el año al usuario */
