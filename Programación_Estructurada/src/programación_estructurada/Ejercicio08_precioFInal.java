@@ -21,8 +21,27 @@ final.
  */
 import java.util.Scanner;
 public class Ejercicio08_precioFInal {
-    public static void main(String[] args){
-        Scanner input = new Scanner (System.in);
-        
+    /*método para calcular el precio final*/
+    public static double calcularPrecioFinal(double precioBase, double impuesto, double descuento) {
+        return precioBase + (precioBase * (impuesto / 100)) - (precioBase * (descuento / 100));
+    }
+      public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        /*pedimos todos los precios y porcentajes*/
+        System.out.println("Ingrese el precio base del producto: ");
+        double precioBase = input.nextDouble();
+
+        System.out.println("Ingrese el porcentaje de impuesto: ");
+        double impuesto = input.nextDouble();
+
+        System.out.println("Ingrese el porcentaje de descuento: ");
+        double descuento = input.nextDouble();
+        /*se imprime el precio final invocando a la función calcularPrecioFinal definida antes*/
+        double precioFinal = calcularPrecioFinal(precioBase, impuesto, descuento);
+        System.out.println("El precio final del producto es de $: " + precioFinal);
     }
 }
+
+/*PrecioFinal = PrecioBase + (PrecioBase×Impuesto) − (PrecioBase×Descuento)
+PrecioFinal = PrecioBase + (PrecioBase \times Impuesto) - (PrecioBase \times
+Descuento) */
