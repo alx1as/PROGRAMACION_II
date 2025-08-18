@@ -24,7 +24,6 @@ El nuevo stock del producto es: 60
 
  */
 import java.util.Scanner;
-
 public class Ejercicio10 {
      public static int actualizarStock(int stockActual, int cantidadVendida, int cantidadRecibida){
          return stockActual - cantidadVendida + cantidadRecibida;

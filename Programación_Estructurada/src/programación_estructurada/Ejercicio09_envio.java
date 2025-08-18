@@ -25,7 +25,6 @@ El total a pagar es: 60.0
 
  */
 import java.util.Scanner;
-
 public class Ejercicio09_envio {
     //función para calcular el costo de envío
     public static double calcularCostoEnvio(double peso, String zona) {

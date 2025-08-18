@@ -20,9 +20,7 @@ El precio final con descuento es: 180.0
 
  */
 import java.util.Scanner;
-
 public class Ejercicio11 {
-
     static double descuentoEspecial = 0.10; //variable global 
     
     /*función para calcular el descuento*/
