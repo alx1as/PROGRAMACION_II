@@ -10,9 +10,6 @@ package Ejercicio1;
  */
 import java.util.List;
 
-package Ejercicio1;
-
-import java.util.List;
 
 public class Principal {
     public static void main(String[] args) {
